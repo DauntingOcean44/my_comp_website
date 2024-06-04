@@ -39,7 +39,7 @@ article ul {
 
 /* <html> = the root */
 html {
-  font-size: 160%;
+  font-size: 90%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -65,21 +65,21 @@ summary,
 /*Header Formatting */
 
 header {
-  height: 8rem;
+  height: 3.5rem;
   width: 100%;
-  background-color: #f2545b;
-  color: #f3f7f0;
+  background-color: #9fa0c3;
+  color: black;
 }
 
 header > * {
-  padding: 3rem;
+  padding: 0.5rem;
 }
 
 nav {
-  height: 4rem;
+  height: 2.5rem;
   width: 100%;
-  background-color: #a93f55;
-  color: #f3f7f0;
+  background-color: #aed9e0;
+  color: black;
 }
 
 nav > * {
@@ -97,6 +97,6 @@ section > div {
   flex: 1 1 auto;
   box-shadow: 1px 1px 2px grey;
   max-height: 20rem;
-  max-width: 33rem;
+  max-width: 30rem;
   padding: 1rem;
 }
