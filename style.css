@@ -1,0 +1,102 @@
+/*CSS SETUP CODE*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+  list-style: none;
+}
+
+menu,
+ol,
+ul {
+  padding-left: 0;
+}
+
+article ol,
+article ul {
+  list-style-position: inside;
+}
+
+/* <html> = the root */
+html {
+  font-size: 160%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+  cursor: pointer;
+}
+
+/*Header Formatting */
+
+header {
+  height: 8rem;
+  width: 100%;
+  background-color: #f2545b;
+  color: #f3f7f0;
+}
+
+header > * {
+  padding: 3rem;
+}
+
+nav {
+  height: 4rem;
+  width: 100%;
+  background-color: #a93f55;
+  color: #f3f7f0;
+}
+
+nav > * {
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+section > div {
+  margin: 2rem;
+  flex: 1 1 auto;
+  box-shadow: 1px 1px 2px grey;
+  max-height: 20rem;
+  max-width: 33rem;
+  padding: 1rem;
+}
