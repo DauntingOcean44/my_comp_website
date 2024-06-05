@@ -39,7 +39,7 @@ article ul {
 
 /* <html> = the root */
 html {
-  font-size: 90%;
+  font-size: 130%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -67,8 +67,8 @@ summary,
 header {
   height: 3.5rem;
   width: 100%;
-  background-color: #9fa0c3;
-  color: black;
+  background-color: #52796f;
+  color: white;
 }
 
 header > * {
@@ -78,8 +78,14 @@ header > * {
 nav {
   height: 2.5rem;
   width: 100%;
-  background-color: #aed9e0;
-  color: black;
+  background-color: #84a98c;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin-right: 0rem;
 }
 
 nav > * {
@@ -87,16 +93,30 @@ nav > * {
 }
 
 section {
+  margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 section > div {
   margin: 2rem;
   flex: 1 1 auto;
-  box-shadow: 1px 1px 2px grey;
+  box-shadow: 1px 1px 1px grey;
   max-height: 20rem;
-  max-width: 30rem;
+  max-width: 40rem;
   padding: 1rem;
+  border-radius: 1rem;
+}
+
+footer {
+  margin-top: 13rem;
+  height: 3.5rem;
+  width: 100%;
+  background-color: #84a98c;
+  color: black;
+}
+
+.big {
+  transform: scale(1.3);
 }
