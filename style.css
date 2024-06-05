@@ -93,11 +93,11 @@ nav > * {
 }
 
 section {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 section > div:not(.responsive) {
@@ -220,4 +220,85 @@ div.desc {
 
 .responsive {
   border: none;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid transparent;
+  border-bottom: 3rem solid #05f31d;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid transparent;
+  border-top: 3rem solid #f30101;
+}
+
+#square {
+  height: 3rem;
+  width: 3rem;
+  background-color: #ffffff;
+}
+
+aside {
+  padding: 1rem;
+  min-width: 10rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #00a9a5, #4e8098);
+  box-shadow: 1px 1px 1px grey;
+  border-radius: 1rem;
+}
+
+aside > * {
+  margin: 0.3rem;
+  transition: all 0.1s ease-in-out;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+#triangle-up:active {
+  transform: translateY(-0.3rem);
+}
+
+#triangle-down:active {
+  transform: translateY(0.3rem);
+}
+
+#square:active {
+  transform: scale(1.2);
+}
+.centered-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.top-text {
+  position: relative;
+  top: 1.2rem;
+  left: -0.3rem;
+  text-align: center;
+}
+
+.bottom-text {
+  position: relative;
+  top: -2.2rem;
+  left: -0.3rem;
+  text-align: center;
+}
+
+#ambient {
+  background-image: url("https://th.bing.com/th/id/R.ed9219fddd2c3dc5b890d75cfedf0928?rik=lR5z3e6LD6138Q&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fiVlOIXO.jpg&ehk=uOeqjmliZvMM8ocxlJa6r5eRru9R9Johv9bo8Ry6bq0%3d&risl=&pid=ImgRaw&r=0");
 }
