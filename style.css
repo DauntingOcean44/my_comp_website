@@ -82,6 +82,7 @@ nav {
   color: white;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
 
 nav a {
@@ -301,4 +302,8 @@ aside > * {
 
 #ambient {
   background-image: url("https://th.bing.com/th/id/R.ed9219fddd2c3dc5b890d75cfedf0928?rik=lR5z3e6LD6138Q&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fiVlOIXO.jpg&ehk=uOeqjmliZvMM8ocxlJa6r5eRru9R9Johv9bo8Ry6bq0%3d&risl=&pid=ImgRaw&r=0");
+}
+
+button {
+  display: none;
 }
