@@ -39,7 +39,7 @@ article ul {
 
 /* <html> = the root */
 html {
-  font-size: 150%;
+  font-size: 120%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -111,8 +111,8 @@ section > div:not(.responsive) {
 }
 
 div.table {
-  max-height: 30rem;
-  max-width: 40rem;
+  min-height: 30rem;
+  min-width: 40rem;
 }
 
 footer {
